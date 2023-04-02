@@ -1,6 +1,6 @@
 # my portfolio➕
 
-![portfolio+ Clone Mockup]()
+![portfolio+ Clone Mockup](https://github.com/rohzxz/portfolio.nextjs/blob/main/public/portfolio.png)
 
 # Technologies 👾
 

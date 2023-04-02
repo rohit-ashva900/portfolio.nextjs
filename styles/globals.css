@@ -15,9 +15,7 @@
 html {
   scroll-behavior: smooth !important;
 }
-div {
-  scroll-margin: 20em;
-}
+
 section {
   scroll-margin: 5em;
 }
@@ -34,7 +32,7 @@ svg {
   max-width: 100%;
   user-select: none;
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -42,7 +40,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-}
+} */
 
 li,
 button {

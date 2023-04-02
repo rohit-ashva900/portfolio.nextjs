@@ -12,133 +12,121 @@ const style = { fontSize: "1.4em" };
 
 const About = () => {
   return (
-    <div id="about">
-      <section className="container">
-        <div className={styles.about_section}>
-          <div className={styles.about_text}>
-            <h3>About Me</h3>
-            <p>
-              hello My name is Rohit ashva.I did my{" "}
-              <span> computer software </span> bachelors degree in 2017 from
-              india. after then did another course in management from Singapore
-              in 2021. right now I have lived in Poland last two years. right
-              now I am learning core <span>javascript</span> and full stack
-              development path. I am a good learner... I like to learn new
-              things. and I m fascinated by how things work behind the computer
-              screen.
-            </p>
-          </div>
-          <div className={styles.about_image}>
-            <Image className={styles.img} src={about} alt="about-image" />
-          </div>
+    <section id="about" className="container">
+      <div className={styles.about_section}>
+        <div className={styles.about_text}>
+          <h3>About Me</h3>
+          <p>
+            hello My name is Rohit ashva.I did my{" "}
+            <span> computer software </span> bachelors degree in 2017 from
+            india. after then did another course in management from Singapore in
+            2021. right now I have lived in Poland last two years. right now I
+            am learning core <span>javascript</span> and full stack development
+            path. I am a good learner... I like to learn new things. and I m
+            fascinated by how things work behind the computer screen.
+          </p>
         </div>
-        <article className={styles.education_section}>
-          <div className="container">
-            <VerticalTimeline lineColor="#2c5364">
-              <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2014 - 2017"
-                iconStyle={{ background: "#2c5364", color: "#fff" }}
-                icon={<MdSchool />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Maharshi Dayanand University, Ajmer, India
-                </h3>
+        <div className={styles.about_image}>
+          <Image className={styles.img} src={about} alt="about-image" />
+        </div>
+      </div>
+      <article className={styles.education_section}>
+        <div className="container">
+          <VerticalTimeline lineColor="#2c5364">
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2014 - 2017"
+              iconStyle={{ background: "#2c5364", color: "#fff" }}
+              icon={<MdSchool />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Maharshi Dayanand University, Ajmer, India
+              </h3>
 
-                <h4
-                  style={style}
-                  className="vertical-timeline-element-subtitle"
-                >
-                  Bachelors degree in Computer science
-                </h4>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2018 - 2021"
-                iconStyle={{ background: "#2c5364", color: "#fff" }}
-                icon={<MdSchool />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  SDH Institute, Singapore
-                </h3>
+              <h4 style={style} className="vertical-timeline-element-subtitle">
+                Bachelors degree in Computer science
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2018 - 2021"
+              iconStyle={{ background: "#2c5364", color: "#fff" }}
+              icon={<MdSchool />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                SDH Institute, Singapore
+              </h3>
 
-                <h4
-                  style={style}
-                  className="vertical-timeline-element-subtitle"
-                >
-                  Management and business tourism
-                </h4>
+              <h4 style={style} className="vertical-timeline-element-subtitle">
+                Management and business tourism
+              </h4>
 
-                <p> Advance diploma </p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2022 - 2023"
-                iconStyle={{ background: "#2c5364", color: "#fff" }}
-                icon={<MdSchool />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Scrimba, E-Learning
-                </h3>
+              <p> Advance diploma </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2022 - 2023"
+              iconStyle={{ background: "#2c5364", color: "#fff" }}
+              icon={<MdSchool />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Scrimba, E-Learning
+              </h3>
 
-                <h4
-                  style={style}
-                  className="vertical-timeline-element-subtitle"
-                >
-                  Front end developer career path
-                </h4>
+              <h4 style={style} className="vertical-timeline-element-subtitle">
+                Front end developer career path
+              </h4>
 
-                <p> advance certificate </p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2022 - 2023"
-                iconStyle={{ background: "#2c5364", color: "#fff" }}
-                icon={<MdSchool />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Udemy,E-Learning
-                </h3>
+              <p> advance certificate </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2022 - 2023"
+              iconStyle={{ background: "#2c5364", color: "#fff" }}
+              icon={<MdSchool />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Udemy,E-Learning
+              </h3>
 
-                <h4 className="vertical-timeline-element-subtitle">
-                  javaScript,HTML5,CSS3,React,redux toolkit, git and gitHub
-                </h4>
+              <h4 className="vertical-timeline-element-subtitle">
+                javaScript,HTML5,CSS3,React,redux toolkit, git and gitHub
+              </h4>
 
-                <p> advance certificate </p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2022- 2022"
-                iconStyle={{ background: "#e9d35b", color: "#fff" }}
-                icon={<MdWork />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Apple Technician Assist
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  stog.sp zoo,poland
-                </h4>
-              </VerticalTimelineElement>
+              <p> advance certificate </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2022- 2022"
+              iconStyle={{ background: "#e9d35b", color: "#fff" }}
+              icon={<MdWork />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Apple Technician Assist
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                stog.sp zoo,poland
+              </h4>
+            </VerticalTimelineElement>
 
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2020 - present"
-                iconStyle={{ background: "#e9d35b", color: "#fff" }}
-                icon={<MdWork />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  Front end developer
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  poznan,poland
-                </h4>
-                <p>Non commercial experience</p>
-              </VerticalTimelineElement>
-            </VerticalTimeline>
-          </div>
-        </article>
-      </section>
-    </div>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2020 - present"
+              iconStyle={{ background: "#e9d35b", color: "#fff" }}
+              icon={<MdWork />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Front end developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                poznan,poland
+              </h4>
+              <p>Non commercial experience</p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
+        </div>
+      </article>
+    </section>
   );
 };
 

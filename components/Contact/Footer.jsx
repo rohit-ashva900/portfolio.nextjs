@@ -5,7 +5,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <div id="contact" className="container">
+    <section id="contact" className="container">
       <div className={styles.footer_bar}>
         <div className={styles.contact_me}>
           <p>Get in Touch</p>
@@ -30,7 +30,7 @@ const Footer = () => {
           <HiOutlineChevronDoubleUp className={styles.icon_up} />
         </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,0 +1,118 @@
+.main_section,
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_section {
+  padding-top: 15em;
+  text-align: center;
+  gap: 5em;
+}
+.main {
+  gap: 2em;
+}
+
+.main h1 {
+  font-size: 3.35em;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.main p span {
+  font-size: 1.5em;
+  color: #284e24;
+}
+.main h1 span {
+  color: #2b4b28;
+}
+/* social section--------------------------------- */
+.social_links {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+.social_bar {
+  cursor: pointer;
+  padding: 2.5em 1.5em;
+  border-radius: 9999px;
+  box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
+}
+
+.social_bar:hover {
+  transform: scale(1.2);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+  transition: 0.3s ease;
+}
+/* resume section------------------------ */
+.resume_section h3 a {
+  color: #284e24;
+  padding: 0.5em;
+  --c: #1095c1; /* the color */
+  --s: 0.15em;
+
+  line-height: 1.1em;
+  padding-bottom: calc(2.1 * var(--s));
+  background: conic-gradient(from 135deg at top, var(--c) 90deg, #0000 0) left 0
+      bottom var(--s) / calc(2 * var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom, var(--c) 90deg, #0000 0) left var(--s)
+      bottom 0 / calc(2 * var(--s)) var(--s) repeat-x;
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0 / var(--_p, 0%) padding-box no-repeat;
+  transition: 0.5s;
+}
+.resume_section h3 a:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+
+/* media section----------------- */
+
+/* xs */
+@media (max-width: 475px) {
+  .main_section {
+    padding-top: 10em;
+
+    gap: 3em;
+  }
+  .main h1 {
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  .main p {
+    font-size: 0.8em;
+    color: #284e24;
+  }
+}
+.social_links {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+} */
+
+/* md */
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+}
+
+/* lg */
+/* @media (min-width: 1024px) {
+} */
+
+/* xl */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+} */

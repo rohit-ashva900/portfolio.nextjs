@@ -1,0 +1,85 @@
+.footer_bar {
+  margin: 20em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  text-align: center;
+}
+.contact_me p {
+  font-weight: 500;
+}
+.contact_me h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.social_links {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+.social_bar {
+  cursor: pointer;
+  padding: 2.5em 1.5em;
+  border-radius: 9999px;
+  box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
+}
+
+.social_bar:hover {
+  transform: scale(1.2);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+  transition: 0.3s ease;
+}
+.nav_links {
+  display: flex;
+  justify-content: center;
+  margin: 3em auto;
+}
+.icon_up {
+  cursor: pointer;
+  border-radius: 9999px;
+  box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
+  width: 70px;
+  height: 70px;
+}
+.icon_up:hover {
+  transform: scale(1.2);
+  box-shadow: 3px 5px 5px rgba(110, 190, 34, 0.89);
+  transition: 0.3s ease;
+}
+
+/* media section_____________---------------------------------------------------- */
+
+/* xs */
+@media (max-width: 475px) {
+  .social_links {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .social_links {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}

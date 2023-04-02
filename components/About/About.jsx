@@ -118,9 +118,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Front end developer
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                poznan,poland
-              </h4>
+              <h4 className="vertical-timeline-element-subtitle">poland</h4>
               <p>Non commercial experience</p>
             </VerticalTimelineElement>
           </VerticalTimeline>

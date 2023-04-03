@@ -43,14 +43,31 @@
   transition: 0.3s ease;
 }
 
+.menu_icons {
+  margin-right: 1em;
+  width: 30px;
+  height: 30px;
+  display: none;
+  cursor: pointer;
+}
+
 /* xs */
-/* @media (min-width: 475px) {} */
+/* @media (max-width: 475px) {
+} */
 
 /* sm */
-/* @media (min-width: 640px) {} */
+/* @media (max-width: 640px) {
+} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (max-width: 768px) {
+  /* .menu_icons {
+    display: block;
+  }
+  .links {
+    display: none;
+  } */
+}
 
 /* lg */
 /* @media (min-width: 1024px) {} */

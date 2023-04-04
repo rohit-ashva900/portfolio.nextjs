@@ -1,55 +1,49 @@
-/* main color
-#2b4b28
-#84ca7dd3
-*/
+.nav_logo {
+  display: grid;
+  place-content: center;
+  box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.5);
+  border-radius: 0.8rem;
+}
 
-.nav_bar {
+.nav_header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0.3em;
-  /* border: 1px solid red; */
-
-  box-shadow: 0px 2px 25px #2b4b28;
-  border-bottom: 1px solid #2b4b28;
-  position: fixed;
-  left: 0; /* ADDED */
-  top: 0; /* ADDED */
-  width: 100%; /* ADDED */
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.nav_toggle {
+  font-size: 1.5rem;
+  color: #9b0859d3;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
 }
 
-.links {
-  margin-right: 3em;
-  display: flex;
-  gap: 1.3em;
-  justify-content: center;
+.nav_toggle:hover {
+  color: black;
+  transform: rotate(90deg);
 }
-.link {
-  border-bottom: 2px solid transparent;
+
+.links a {
+  color: #1f2937;
+  font-size: 1.1rem;
+  display: block;
+  padding: 0.2rem 1rem;
+  transition: all 0.3s linear;
   text-decoration: none;
 }
-.link:hover {
-  border-bottom: 1.2px solid #2b4b28;
+
+.links a:hover {
+  background-color: #84ca7dd3;
+  color: #2770d6;
+  padding-left: 1.5rem;
 }
-.nav_img {
-  margin-left: 1em;
-  border-radius: 0.5em;
-  box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.5);
-  width: 3em;
-}
-.nav_img:hover {
-  transform: scale(1.2);
-  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
-  transition: 0.3s ease;
+.links_container {
+  overflow: hidden;
+  transition: all 0.3s linear;
 }
 
-.menu_icons {
-  margin-right: 1em;
-  width: 30px;
-  height: 30px;
-  display: none;
-  cursor: pointer;
-}
+/* media section ------------------------------------------ */
 
 /* xs */
 /* @media (max-width: 475px) {
@@ -60,13 +54,36 @@
 } */
 
 /* md */
-@media (max-width: 768px) {
-  /* .menu_icons {
-    display: block;
+@media (min-width: 768px) {
+  .nav_toggle {
+    display: none;
+  }
+  .nav_header {
+    padding: 0px;
+  }
+  .nav_center {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
   }
   .links {
-    display: none;
-  } */
+    display: flex;
+    gap: 1.5rem;
+  }
+  .links a {
+    padding: 0;
+  }
+  .links a:hover {
+    color: rgba(167, 170, 12, 0.801);
+    padding: 0;
+    background-color: transparent;
+    box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.5);
+  }
+  .links_container {
+    height: auto !important;
+  }
 }
 
 /* lg */

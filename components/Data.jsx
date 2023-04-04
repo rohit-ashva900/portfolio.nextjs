@@ -17,30 +17,38 @@ import { nanoid } from "../node_modules/nanoid";
 import img1 from "../public/assets/slider/img1.jpg";
 import notes from "../public/assets/projects/notes-app.png";
 import imageapp from "../public/assets/projects/image-app.png";
-//social links------social links------social links------social links------
+const colorGitHub = {
+  color: "#171515",
+};
 
+//social links------social links------social links------social links------
 export const socialLinks = [
   {
     id: nanoid(),
     href: "https://www.linkedin.com/in/rohit-ashva-92b662268/",
-    icon: <FaLinkedinIn size={25} />,
+    icon: <FaLinkedinIn size={25} style={{ color: "#0e76a8" }} />,
   },
   {
     id: nanoid(),
     href: "https://github.com/rohzxz",
-    icon: <FaGithub size={25} />,
+    icon: <FaGithub size={25} style={colorGitHub} />,
   },
   {
     id: nanoid(),
     href: "mailto:rohzxz@gmail.com",
-    icon: <AiOutlineMail size={25} />,
+    icon: <AiOutlineMail size={25} style={{ color: "#C71610" }} />,
   },
   {
     id: nanoid(),
     href: "https://twitter.com/rohit__ashva",
-    icon: <FaTwitter size={25} />,
+    icon: <FaTwitter size={25} style={{ color: "#1DA1F2" }} />,
   },
 ];
+
+// const linkedin = {
+//   color: "red",
+// };
+
 //  nav links----------- nav links----------- nav links----------- nav links-----------
 
 export const links = [
@@ -150,7 +158,7 @@ export const projectList = [
   {
     id: nanoid(),
     href_github: "https://github.com/rohzxz/image-searching-with-api",
-    icon_github: <FaGithub className="icons" />,
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
     // icon_github: <FaGithub size={50} />,
     href_demo: "https://rohzxzimage-app.netlify.app/",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
@@ -175,7 +183,7 @@ export const projectList = [
   {
     id: nanoid(),
     href_github: "https://github.com/rohzxz/image-searching-with-api",
-    icon_github: <FaGithub className="icons" />,
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
     href_demo: "https://rohzxzimage-app.netlify.app/",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     name: "Image-app -with -API",
@@ -198,7 +206,7 @@ export const projectList = [
   {
     id: nanoid(),
     href_github: "https://github.com/rohzxz/image-searching-with-api",
-    icon_github: <FaGithub className="icons" />,
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
     href_demo: "https://rohzxzimage-app.netlify.app/",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     name: "Image-app -with -API",
@@ -221,7 +229,7 @@ export const projectList = [
   {
     id: nanoid(),
     href_github: "https://github.com/rohzxz/image-searching-with-api",
-    icon_github: <FaGithub className="icons" />,
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
     href_demo: "https://rohzxzimage-app.netlify.app/",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     name: "Image-app -with -API",

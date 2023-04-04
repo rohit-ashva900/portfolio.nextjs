@@ -4,8 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #ecf0f3;
-  color: #1f2937;
   letter-spacing: 0.025em;
   line-height: calc(1em + 0.5rem);
 }
@@ -19,9 +17,11 @@ section {
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ecf0f3;
+  color: #1f2937;
 }
 
-image,
+Image,
 picture,
 video,
 canvas,
@@ -47,6 +47,9 @@ button {
   list-style: none;
   text-transform: capitalize;
 }
+
+/* icons for Projects     css-----------------------------*/
+
 .icons {
   width: 30px;
   height: 30px;
@@ -58,3 +61,27 @@ button {
   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
   transition: 0.3s ease;
 }
+/* icons for Projects     css------------------------------*/
+
+.links_container {
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+@media (min-width: 768px) {
+  .links_container {
+    height: auto !important;
+  }
+}
+/* change nav color when scrolling .....  -----------------*/
+.nav_bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nav_bg {
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* change nav color when scrolling .....--------------- */

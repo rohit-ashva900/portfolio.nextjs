@@ -41,6 +41,7 @@
   box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
   width: 70px;
   height: 70px;
+  color: black;
 }
 .icon_up:hover {
   transform: scale(1.2);

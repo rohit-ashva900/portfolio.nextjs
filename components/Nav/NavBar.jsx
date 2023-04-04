@@ -31,7 +31,11 @@ const NavBar = () => {
       setColor(false);
     }
   };
-  window.addEventListener("scroll", changeColor);
+  // i found this solution on internet -------------------
+  if (typeof window !== "undefined") {
+    // browser code
+    window.addEventListener("scroll", changeColor);
+  }
 
   // change nav color when scrolling .....
 
@@ -78,32 +82,6 @@ const NavBar = () => {
               })}
             </ul>
           </div>
-
-          {/* <div>
-        <Link href="/">
-          <Image
-            className={styles.nav_img}
-            src={logo}
-            alt="/"
-            width="60"
-            height="40"
-          />
-        </Link>
-      </div>
-      <div className={styles.menu_icons} onClick={toggleLinks}>
-        <AiOutlineMenu />
-      </div>
-      {showLinks && (
-        <nav className={styles.links}>
-          {links.map(({ id, url, text }) => {
-            return (
-              <Link key={id} className={styles.link} href={url}>
-                <li>{text}</li>
-              </Link>
-            );
-          })}
-        </nav>
-      )} */}
         </section>
       </div>
     </nav>

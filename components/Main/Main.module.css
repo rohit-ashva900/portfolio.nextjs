@@ -38,12 +38,12 @@
   padding: 2.5em 1.5em;
   border-radius: 9999px;
   box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
+  transition: transform 0.75s;
 }
 
 .social_bar:hover {
   transform: scale(1.2);
   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
-  transition: 0.3s ease;
 }
 /* resume section------------------------ */
 .resume_section h3 a {

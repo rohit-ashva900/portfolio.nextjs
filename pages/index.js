@@ -3,7 +3,6 @@ import Main from "@/components/Main/Main";
 import Projects from "@/components/Projecte/Projects";
 import Skills from "@/components/Skills/Skills";
 import Head from "next/head";
-
 export default function Home() {
   return (
     <>

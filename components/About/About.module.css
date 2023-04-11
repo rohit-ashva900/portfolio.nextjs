@@ -41,11 +41,12 @@
   border-radius: 2em;
 
   box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
+  transition: transform 0.7s, transition-duration 0.3s;
 }
 .img:hover {
   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
   transform: scale(1.1);
-  transition: 0.4s ease;
+
   transition-duration: 150ms;
 }
 

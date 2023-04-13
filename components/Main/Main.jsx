@@ -6,7 +6,6 @@ const Main = () => {
       <main className="container">
         <section className={styles.main_section}>
           <div className={styles.main}>
-            <p>Life is Good....</p>
             <h1>
               Hi,I m <span>Rohit</span> <br />A Front-End Web Developer
             </h1>

@@ -6,24 +6,29 @@ const Skills = () => {
       <section className="container">
         <div className={styles.skills_section}>
           <div className={styles.heading_section}>
-            <p>SKILLS</p>
-            <h2>What I Learn So far...</h2>
+            <p>Technical Skills</p>
+            <h4>
+              Here are a few technologies I’ve been working with recently:
+            </h4>
           </div>
-          <div className={styles.skills_grid}>
-            {skills.map(({ id, text, image, level }) => {
-              return (
-                <div key={id} className={styles.skills_box}>
-                  <div>
-                    {image}
-                    <p>{level}</p>
+          <section className={styles.skills_tech}>
+            <h3>Front-End</h3>
+            <div className={styles.skills_grid}>
+              {skills.map(({ id, text, image, level }) => {
+                return (
+                  <div key={id} className={styles.skills_box}>
+                    <div>
+                      {image}
+                      <p>{level}</p>
+                    </div>
+                    <div>
+                      <h3>{text}</h3>
+                    </div>
                   </div>
-                  <div>
-                    <h3>{text}</h3>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+          </section>
         </div>
       </section>
     </section>

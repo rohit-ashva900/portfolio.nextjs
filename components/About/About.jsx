@@ -18,7 +18,7 @@ const About = () => {
         <div className={styles.about_text}>
           <h3>About Me</h3>
           <p>
-            hello My name is Rohit ashva.I did my{" "}
+            hello My name is Rohit ashva.I did my
             <span> computer software </span> bachelors degree in 2017 from
             india. after then did another course in management from Singapore in
             2021. right now I have lived in Poland last two years. right now I

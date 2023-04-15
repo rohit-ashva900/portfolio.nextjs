@@ -11,12 +11,11 @@ import git from "../public/assets/skills/Git.png";
 import javascript from "../public/assets/skills/javascript.png";
 import tailwind from "../public/assets/skills/tailwind.png";
 import redux from "../public/assets/skills/Redux.png";
-import node from "../public/assets/skills/node.png";
-import reactnative from "../public/assets/skills/react-native.png";
+// import node from "../public/assets/skills/node.png"; need to learn how works
+// import reactnative from "../public/assets/skills/react-native.png";  need to learn how works
 import { nanoid } from "../node_modules/nanoid";
-import img1 from "../public/assets/slider/img1.jpg";
-import notes from "../public/assets/projects/notes-app.png";
 import imageapp from "../public/assets/projects/image-app.png";
+import teslaclone from "../public/assets/projects/tesla-clone.png";
 const colorGitHub = {
   color: "#171515",
 };
@@ -183,24 +182,23 @@ export const projectList = [
   },
   {
     id: nanoid(),
-    href_github: "https://github.com/rohzxz/image-searching-with-api",
+    href_github: "https://github.com/rohzxz/tesla-clone-nextjs",
     icon_github: <FaGithub className="icons" style={colorGitHub} />,
-    href_demo: "https://rohzxzimage-app.netlify.app/",
+    href_demo: "https://rohzxz-teslaclone.netlify.app/",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
-    name: "Image-app -with -API",
+    name: "Tesla----------------clone",
     image: (
       <Image
-        src={imageapp}
+        src={teslaclone}
         alt="projects"
         style={{ borderRadius: "1em", width: "100%", height: "100%" }}
       />
     ),
-    Overview: "This app was built using React JS with unsplash API.",
+    Overview: `This app was built using Next JS. with Pure CSS ____ `,
     Technologies: (
       <ul>
+        <li>◼️Next js</li>
         <li>◼️React js</li>
-        <li>◼️Javascript</li>
-        <li>◼️unsplash API</li>
       </ul>
     ),
   },

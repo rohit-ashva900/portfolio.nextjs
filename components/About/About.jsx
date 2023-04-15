@@ -23,8 +23,8 @@ const About = () => {
             india. after then did another course in management from Singapore in
             2021. right now I have lived in Poland last two years. right now I
             am learning core <span>javascript</span> and full stack development
-            path. I am a good learner... I like to learn new things. and I m
-            fascinated by how things work behind the computer screen.
+            path. I love learning new concepts and skills. and I m fascinated by
+            how things work behind the computer screen.
           </p>
         </div>
         <div className={styles.about_image}>

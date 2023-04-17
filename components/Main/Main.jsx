@@ -1,5 +1,7 @@
 import styles from "./Main.module.css";
+
 import { socialLinks } from "../Data";
+import Link from "next/link";
 const Main = () => {
   return (
     <div>
@@ -27,11 +29,13 @@ const Main = () => {
           </div>
           <div className={styles.resume_section}>
             <h3>
-              Download
-              <a href="/path/to/myc.txt" download>
+              <Link
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 My Resume
-              </a>
-              Please.
+              </Link>
             </h3>
           </div>
         </section>

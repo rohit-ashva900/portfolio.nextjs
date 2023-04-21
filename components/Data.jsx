@@ -16,6 +16,7 @@ import redux from "../public/assets/skills/Redux.png";
 import { nanoid } from "../node_modules/nanoid";
 import imageapp from "../public/assets/projects/image-app.png";
 import teslaclone from "../public/assets/projects/tesla-clone.png";
+import pizza from "../public/assets/projects/pizza_hooks.png";
 const colorGitHub = {
   color: "#171515",
 };
@@ -204,48 +205,48 @@ export const projectList = [
   },
   {
     id: nanoid(),
-    href_github: "https://github.com/rohzxz/image-searching-with-api",
+    href_github: "https://github.com/rohzxz/pizza-hooks",
     icon_github: <FaGithub className="icons" style={colorGitHub} />,
-    href_demo: "https://rohzxzimage-app.netlify.app/",
+    href_demo: "https://rohzxz-pizza-hooks.netlify.app//",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
-    name: "Image-app -with -API",
+    name: "pizza-hooks",
     image: (
       <Image
-        src={imageapp}
+        src={pizza}
         alt="projects"
         style={{ borderRadius: "1em", width: "100%", height: "100%" }}
       />
     ),
-    Overview: "This app was built using React JS with unsplash API.",
+    Overview: "This app was built using context hook with Next js.",
     Technologies: (
       <ul>
-        <li>◼️React js</li>
-        <li>◼️Javascript</li>
-        <li>◼️unsplash API</li>
+        <li>◼️Next js</li>
+        <li>◼️tailwind-css</li>
+        <li>◼️context hook</li>
       </ul>
     ),
   },
-  {
-    id: nanoid(),
-    href_github: "https://github.com/rohzxz/image-searching-with-api",
-    icon_github: <FaGithub className="icons" style={colorGitHub} />,
-    href_demo: "https://rohzxzimage-app.netlify.app/",
-    icon_demo: <BsArrowUpRightSquare className="icons" />,
-    name: "Image-app -with -API",
-    image: (
-      <Image
-        src={imageapp}
-        alt="projects"
-        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
-      />
-    ),
-    Overview: "This app was built using React JS with unsplash API.",
-    Technologies: (
-      <ul>
-        <li>◼️React js</li>
-        <li>◼️Javascript</li>
-        <li>◼️unsplash API</li>
-      </ul>
-    ),
-  },
+  // {
+  //   id: nanoid(),
+  //   href_github: "https://github.com/rohzxz/image-searching-with-api",
+  //   icon_github: <FaGithub className="icons" style={colorGitHub} />,
+  //   href_demo: "https://rohzxzimage-app.netlify.app/",
+  //   icon_demo: <BsArrowUpRightSquare className="icons" />,
+  //   name: "Image-app -with -API",
+  //   image: (
+  //     <Image
+  //       src={imageapp}
+  //       alt="projects"
+  //       style={{ borderRadius: "1em", width: "100%", height: "100%" }}
+  //     />
+  //   ),
+  //   Overview: "This app was built using React JS with unsplash API.",
+  //   Technologies: (
+  //     <ul>
+  //       <li>◼️React js</li>
+  //       <li>◼️Javascript</li>
+  //       <li>◼️unsplash API</li>
+  //     </ul>
+  //   ),
+  // },
 ];

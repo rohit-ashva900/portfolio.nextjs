@@ -11,6 +11,8 @@ import git from "../public/assets/skills/Git.png";
 import javascript from "../public/assets/skills/javascript.png";
 import tailwind from "../public/assets/skills/tailwind.png";
 import redux from "../public/assets/skills/Redux.png";
+import style from "../public/assets/skills/style.png";
+import typescript from "../public/assets/skills/typescript.png";
 // import node from "../public/assets/skills/node.png"; need to learn how works
 // import reactnative from "../public/assets/skills/react-native.png";  need to learn how works
 import { nanoid } from "../node_modules/nanoid";
@@ -117,6 +119,12 @@ export const skills = [
   },
   {
     id: nanoid(),
+    text: "Typescript",
+    level: "⚫⚫",
+    image: <Image src={typescript} alt="style" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
     text: "Tailwind CSS",
     level: "⚫⚫",
     image: <Image src={tailwind} alt="tailwind" width="50" height="50" />,
@@ -138,6 +146,12 @@ export const skills = [
     text: "git",
     level: "⚫⚫",
     image: <Image src={git} alt="git" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "styled-components",
+    level: "⚫⚫",
+    image: <Image src={style} alt="style" width="50" height="50" />,
   },
   // {
   //   id: nanoid(),

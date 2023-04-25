@@ -112,15 +112,22 @@ const About = () => {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2020 - present"
+              date="2022 - present"
               iconStyle={{ background: "#e9d35b", color: "#fff" }}
               icon={<MdWork />}
             >
               <h3 className="vertical-timeline-element-title">
-                Front end developer
+                Non commercial experience:
               </h3>
               <h4 className="vertical-timeline-element-subtitle">poland</h4>
-              <p>Non commercial experience</p>
+              <p>
+                Tesla simple clone website using React fully responsive. • good
+                knowledge of fetching data from the API. • currently, I am
+                working on a website using CRUD system. • basic knowledge
+                version control system(git) • ability to solve the problem. •
+                taking responsibility for my code. • Constantly learning and
+                improving
+              </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

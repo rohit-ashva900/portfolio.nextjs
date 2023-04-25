@@ -46,6 +46,7 @@ button {
   border: none;
   list-style: none;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 /* icons for Projects     css-----------------------------*/

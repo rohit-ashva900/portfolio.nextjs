@@ -17,8 +17,8 @@ section {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ecf0f3;
-  color: #1f2937;
+  background-color: rgb(195, 87, 87);
+  color: black;
 }
 
 Image,

@@ -28,7 +28,7 @@ export const socialLinks = [
   {
     id: nanoid(),
     href: "https://www.linkedin.com/in/rohit-ashva-92b662268/",
-    icon: <FaLinkedinIn size={25} style={{ color: "#0e76a8" }} />,
+    icon: <FaLinkedinIn size={25} style={{ color: "#0c6088" }} />,
   },
   {
     id: nanoid(),
@@ -43,7 +43,7 @@ export const socialLinks = [
   {
     id: nanoid(),
     href: "https://twitter.com/rohit__ashva",
-    icon: <FaTwitter size={25} style={{ color: "#1DA1F2" }} />,
+    icon: <FaTwitter size={25} style={{ color: "#11669b" }} />,
   },
 ];
 

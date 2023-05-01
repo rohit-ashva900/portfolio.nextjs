@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useRef, useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import logo from "../../public/assets/logo.png";
+import logo from "../../public/assets/logo2.png";
 import Link from "next/link";
 import styles from "./Nav.module.css";
 import { GiSplitCross } from "react-icons/gi";

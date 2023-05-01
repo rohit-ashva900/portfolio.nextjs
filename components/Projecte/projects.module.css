@@ -23,7 +23,7 @@
 .image_container {
   display: grid;
   place-content: center;
-  background-color: #bdc7bc;
+  /* background-color: #bdc7bc; */
   border-radius: 1em;
   width: 40%;
   height: 300px;

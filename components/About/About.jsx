@@ -18,13 +18,21 @@ const About = () => {
         <div className={styles.about_text}>
           <h3>About Me</h3>
           <p>
-            hello My name is Rohit ashva.I did my
-            <span> computer software </span> bachelors degree in 2017 from
-            india. after then did another course in management from Singapore in
-            2021. right now I have lived in Poland last two years. right now I
-            am learning core <span>javascript</span> and full stack development
-            path. I love learning new concepts and skills. and I m fascinated by
-            how things work behind the computer screen.
+            Hello, My name is Rohit Ashva. I completed{" "}
+            <span>my bachelor,s degree in Computer Software </span> in 2017.
+            After that, I pursued my{" "}
+            <span> master s degree in Computer Software </span> from Jaipur
+            National University in 2021 from india. For the past two years, I
+            have been living in Poland. Currently, I am focused on learning core{" "}
+            <span>JavaScript and java </span> and following the full-stack
+            development path. I have a passion for learning new concepts and
+            skills, especially when it comes to understanding how things work
+            behind the computer screen. The world of technology and programming
+            never ceases to amaze me, and I,m excited to continue my journey of
+            growth and knowledge in the field of software development.
+            <b>Thank you </b>for getting to know a bit about me. I look forward
+            to embracing new challenges and making a positive impact through my
+            work in the future.
           </p>
         </div>
         <div className={styles.about_image}>
@@ -50,7 +58,7 @@ const About = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="2018 - 2021"
+              date="2018 - 2020"
               iconStyle={{ background: "#2c5364", color: "#fff" }}
               icon={<MdSchool />}
             >
@@ -66,23 +74,23 @@ const About = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="2022 - 2023"
+              date="2021"
               iconStyle={{ background: "#2c5364", color: "#fff" }}
               icon={<MdSchool />}
             >
               <h3 className="vertical-timeline-element-title">
-                Scrimba, E-Learning
+                Master,s degree Jaipur National University
               </h3>
 
               <h4 style={style} className="vertical-timeline-element-subtitle">
-                Front end developer career path
+                Computer Software
               </h4>
 
-              <p> advance certificate </p>
+              <p> Master,s degree </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="2022 - 2023"
+              date="2022"
               iconStyle={{ background: "#2c5364", color: "#fff" }}
               icon={<MdSchool />}
             >
@@ -97,8 +105,25 @@ const About = () => {
               <p> advance certificate </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2023"
+              iconStyle={{ background: "#2c5364", color: "#fff" }}
+              icon={<MdSchool />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Great Learning ( e-Learning )
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                ADVANCED CERTIFICATE PROGRAM IN FULL STACK SOFTWARE DEVELOPMENT
+                from <span style={{ color: "red" }}>IIT ROORKEE </span> , India
+                SPECIALIZATION in cloud Computing
+              </h4>
+
+              <p> Advance certificate </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2022- 2022"
+              date="2022"
               iconStyle={{ background: "#e9d35b", color: "#fff" }}
               icon={<MdWork />}
             >
@@ -110,7 +135,7 @@ const About = () => {
               </h4>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2022 - present"
               iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -128,7 +153,7 @@ const About = () => {
                 taking responsibility for my code. • Constantly learning and
                 improving
               </p>
-            </VerticalTimelineElement>
+            </VerticalTimelineElement> */}
           </VerticalTimeline>
         </div>
       </article>

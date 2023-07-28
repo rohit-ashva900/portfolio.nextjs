@@ -1,7 +1,8 @@
 import Image from "next/image";
 import styles from "./About.module.css";
 import about from "../../public/assets/about.jpg";
-import myImage from "../../public/myimg.jpg";
+// import myImage from "../../public/myimg.jpg";
+import IMG from "../../public/IMG.jpeg";
 
 import {
   VerticalTimeline,
@@ -36,7 +37,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.about_image}>
-          <Image className={styles.img} src={myImage} alt="about-image" />
+          <Image className={styles.img} src={IMG} alt="about-image" />
         </div>
       </div>
       <article className={styles.education_section}>

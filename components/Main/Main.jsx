@@ -9,10 +9,10 @@ const Main = () => {
         <section className={styles.main_section}>
           <div className={styles.main}>
             <h1>
-              Hi,I m <span>Rohit</span> <br />A Front-End Web Developer
+              Hi,I m <span>Rohit</span> <br />A Full Stack Software Developer
             </h1>
             <p>
-              A <span>Web Developer </span> with a passion for learning and
+              A <span>Programmer </span> with a passion for learning and
               creating.
             </p>
           </div>

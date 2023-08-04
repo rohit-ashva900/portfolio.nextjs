@@ -1,5 +1,5 @@
 import styles from "./Skills.module.css";
-import { skills } from "../Data";
+import { skills, backendskills } from "../Data";
 const Skills = () => {
   return (
     <section id="skills">
@@ -12,9 +12,31 @@ const Skills = () => {
             </h4>
           </div>
           <section className={styles.skills_tech}>
-            <h3>Front-End</h3>
+            <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
+              Front-End
+            </h3>
             <div className={styles.skills_grid}>
               {skills.map(({ id, text, image, level }) => {
+                return (
+                  <div key={id} className={styles.skills_box}>
+                    <div>
+                      {image}
+                      <p>{level}</p>
+                    </div>
+                    <div>
+                      <h3>{text}</h3>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+          <section className={styles.skills_tech}>
+            <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
+              Back-End{" "}
+            </h3>
+            <div className={styles.skills_grid}>
+              {backendskills.map(({ id, text, image, level }) => {
                 return (
                   <div key={id} className={styles.skills_box}>
                     <div>

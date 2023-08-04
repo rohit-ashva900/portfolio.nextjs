@@ -13,6 +13,10 @@ import tailwind from "../public/assets/skills/tailwind.png";
 import redux from "../public/assets/skills/Redux.png";
 import style from "../public/assets/skills/style.png";
 import typescript from "../public/assets/skills/typescript.png";
+import python from "../public/assets/skills/Python-Symbol.png";
+import python2 from "../public/assets/skills/Python-svg.png";
+import java from "../public/assets/skills/Java-Logo.png";
+import sql from "../public/assets/skills/Sql_logo.png";
 // import node from "../public/assets/skills/node.png"; need to learn how works
 // import reactnative from "../public/assets/skills/react-native.png";  need to learn how works
 import { nanoid } from "../node_modules/nanoid";
@@ -165,6 +169,28 @@ export const skills = [
   //   level: "⚫",
   //   image: <Image src={reactnative} alt="native" width="64" height="64" />,
   // },
+];
+
+// back-End skills---------------
+export const backendskills = [
+  {
+    id: nanoid(),
+    text: "Python",
+    level: "⚫⚫⚫",
+    image: <Image src={python2} alt="html" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "Java",
+    level: "⚫⚫⚫",
+    image: <Image src={java} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "SQL",
+    level: "⚫",
+    image: <Image src={sql} alt="css" width="50" height="50" />,
+  },
 ];
 
 // project list - data-------------------------------------------

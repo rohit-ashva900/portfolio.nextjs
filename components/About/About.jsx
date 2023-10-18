@@ -131,6 +131,12 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Apple Technician Assist
               </h3>
+              <p>
+                Creating, maintaining, and entering information into databases
+                Handling incoming calls and other communications Resolve
+                office-related malfunctions and respond to requests or issues
+                hardware repairing
+              </p>
               <h4 className="vertical-timeline-element-subtitle">
                 stog.sp zoo,poland
               </h4>

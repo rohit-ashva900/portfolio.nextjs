@@ -182,7 +182,7 @@ export const backendskills = [
   {
     id: nanoid(),
     text: "Java",
-    level: "⚫⚫⚫",
+    level: "⚫",
     image: <Image src={java} alt="css" width="50" height="50" />,
   },
   {

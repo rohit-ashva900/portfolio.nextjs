@@ -10,8 +10,8 @@ const About = () => {
         <div className={styles.about_text}>
           <h3>About Me</h3>
           <p>
-            Hello, I'm Rohitashva, a dedicated professional with a bachelor's
-            degree in Computer Software and a master's degree in Computer
+            Hello, I,m Rohitashva, a dedicated professional with a bachelor,s
+            degree in Computer Software and a masters degree in Computer
             Software from Jaipur National University. Currently based in Poland,
             I am passionately pursuing expertise in{" "}
             <span>

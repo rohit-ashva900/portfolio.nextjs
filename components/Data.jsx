@@ -15,6 +15,8 @@ import style from "../public/assets/skills/style.png";
 import typescript from "../public/assets/skills/typescript.png";
 import python from "../public/assets/skills/Python-Symbol.png";
 import python2 from "../public/assets/skills/Python-svg.png";
+import tableau from "../public/assets/skills/tableau.png";
+import BI_tools from "../public/assets/skills/BI_tools.png";
 import java from "../public/assets/skills/Java-Logo.png";
 import sql from "../public/assets/skills/Sql_logo.png";
 // import node from "../public/assets/skills/node.png"; need to learn how works
@@ -23,6 +25,7 @@ import { nanoid } from "../node_modules/nanoid";
 import imageapp from "../public/assets/projects/image-app.png";
 import teslaclone from "../public/assets/projects/tesla-clone.png";
 import pizza from "../public/assets/projects/pizza_hooks.png";
+import excel from "../public/assets/skills/Excel.png";
 const colorGitHub = {
   color: "#171515",
 };
@@ -133,12 +136,12 @@ export const skills = [
     level: "⚫⚫",
     image: <Image src={tailwind} alt="tailwind" width="50" height="50" />,
   },
-  {
-    id: nanoid(),
-    text: "Redux",
-    level: "⚫",
-    image: <Image src={redux} alt="redux" width="50" height="50" />,
-  },
+  // {
+  //   id: nanoid(),
+  //   text: "Redux",
+  //   level: "⚫",
+  //   image: <Image src={redux} alt="redux" width="50" height="50" />,
+  // },
   {
     id: nanoid(),
     text: "GitHub",
@@ -181,15 +184,27 @@ export const backendskills = [
   },
   {
     id: nanoid(),
-    text: "Java",
-    level: "⚫",
-    image: <Image src={java} alt="css" width="50" height="50" />,
+    text: "SQL",
+    level: "⚫⚫",
+    image: <Image src={sql} alt="css" width="50" height="50" />,
   },
   {
     id: nanoid(),
-    text: "SQL",
-    level: "⚫",
-    image: <Image src={sql} alt="css" width="50" height="50" />,
+    text: "Excel",
+    level: "⚫⚫⚫",
+    image: <Image src={excel} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "tableau",
+    level: "⚫⚫",
+    image: <Image src={tableau} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "BI_tools",
+    level: "⚫⚫",
+    image: <Image src={BI_tools} alt="css" width="50" height="50" />,
   },
 ];
 

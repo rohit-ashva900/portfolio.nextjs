@@ -9,11 +9,13 @@ const Main = () => {
         <section className={styles.main_section}>
           <div className={styles.main}>
             <h1>
-              Hi,I m <span>Rohit</span> <br />A Full Stack Software Developer
+              Hi,I m <span>Rohitashva</span> <br />A Data Analyst
             </h1>
             <p>
-              A <span>Programmer </span> with a passion for learning and
-              creating.
+              {/* A <span>Programmer </span> with a passion for learning and
+              creating. */}
+              Cultivating Insights, Driving Decisions: Empowering Businesses
+              Through <span>Data Analysis</span>.
             </p>
           </div>
           <div className={styles.social_links}>

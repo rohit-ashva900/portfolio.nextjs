@@ -17,12 +17,7 @@ section {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
+  background-color: #f2f2f2;
   color: black;
 }
 
@@ -87,12 +82,13 @@ button {
   width: 100%;
 }
 .nav_bg {
-  background: rgb(34, 193, 195);
+  /* background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
     rgba(34, 193, 195, 1) 0%,
     rgba(253, 187, 45, 1) 100%
-  );
+  ); */
+  background-color: #fafafa;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 /* change nav color when scrolling .....--------------- */

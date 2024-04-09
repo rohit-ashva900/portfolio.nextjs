@@ -13,10 +13,10 @@ const Skills = () => {
           </div>
           <section className={styles.skills_tech}>
             <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
-              Front-End
+              Data analysis{" "}
             </h3>
             <div className={styles.skills_grid}>
-              {skills.map(({ id, text, image, level }) => {
+              {backendskills.map(({ id, text, image, level }) => {
                 return (
                   <div key={id} className={styles.skills_box}>
                     <div>
@@ -33,10 +33,10 @@ const Skills = () => {
           </section>
           <section className={styles.skills_tech}>
             <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
-              Back-End{" "}
+              Front-End
             </h3>
             <div className={styles.skills_grid}>
-              {backendskills.map(({ id, text, image, level }) => {
+              {skills.map(({ id, text, image, level }) => {
                 return (
                   <div key={id} className={styles.skills_box}>
                     <div>

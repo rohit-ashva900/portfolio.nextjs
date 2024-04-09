@@ -22,15 +22,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   padding: 1em 2em;
   gap: 2em;
   border-radius: 1em;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
-  font-size: rem;
+  font-size: 1rem;
 }
-
 .skills_box:hover {
   transform: scaleX(1.05);
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
@@ -41,7 +39,7 @@
   margin-top: 5em;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   display: grid;
-  gap: 2em;
+  gap: em;
   justify-content: center;
   align-items: center;
 }

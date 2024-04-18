@@ -26,6 +26,7 @@ import imageapp from "../public/assets/projects/image-app.png";
 import teslaclone from "../public/assets/projects/tesla-clone.png";
 import pizza from "../public/assets/projects/pizza_hooks.png";
 import excel from "../public/assets/skills/Excel.png";
+import powerbi from "../public/slider/1.png";
 const colorGitHub = {
   color: "#171515",
 };
@@ -208,8 +209,94 @@ export const backendskills = [
   },
 ];
 
-// project list - data-------------------------------------------
+// project list data analysis projects - data-------------------------------------------
 
+export const projectList1 = [
+  {
+    id: nanoid(),
+    href_github:
+      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI/blob/main/projects%20for%20power%20BI.pdf",
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
+    // icon_github: <FaGithub size={50} />,
+    href_demo:
+      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
+    icon_demo: <BsArrowUpRightSquare className="icons" />,
+    // icon_demo: <BsArrowUpRightSquare size={50} />,
+    name: "Analyzing E-commerce Data with Power BI",
+    image: (
+      <Image
+        src={powerbi}
+        alt="projects"
+        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
+      />
+    ),
+    Overview:
+      "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
+    Technologies: (
+      <ul>
+        <li>◼️Power BI</li>
+        <li>◼️Dashboard in Power BI </li>
+      </ul>
+    ),
+  },
+  {
+    id: nanoid(),
+    href_github:
+      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI/blob/main/projects%20for%20power%20BI.pdf",
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
+    // icon_github: <FaGithub size={50} />,
+    href_demo:
+      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
+    icon_demo: <BsArrowUpRightSquare className="icons" />,
+    // icon_demo: <BsArrowUpRightSquare size={50} />,
+    name: "Analyzing E-commerce Data with Power BI",
+    image: (
+      <Image
+        src={powerbi}
+        alt="projects"
+        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
+      />
+    ),
+    Overview:
+      "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
+    Technologies: (
+      <ul>
+        <li>◼️Power BI</li>
+        <li>◼️Dashboard in Power BI </li>
+      </ul>
+    ),
+  },
+  {
+    id: nanoid(),
+    href_github:
+      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI/blob/main/projects%20for%20power%20BI.pdf",
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
+    // icon_github: <FaGithub size={50} />,
+    href_demo:
+      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
+    icon_demo: <BsArrowUpRightSquare className="icons" />,
+    // icon_demo: <BsArrowUpRightSquare size={50} />,
+    name: "Analyzing E-commerce Data with Power BI",
+    image: (
+      <Image
+        src={powerbi}
+        alt="projects"
+        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
+      />
+    ),
+    Overview:
+      "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
+    Technologies: (
+      <ul>
+        <li>◼️Power BI</li>
+        <li>◼️Dashboard in Power BI </li>
+      </ul>
+    ),
+  },
+];
+// project list data analysis projects - data-------------------------------------------
+
+// project list data FrontEnd Projects - data-------------------------------------------
 export const projectList = [
   {
     id: nanoid(),
@@ -305,3 +392,5 @@ export const projectList = [
   //   ),
   // },
 ];
+
+// project list data FrontEnd Projects - data-------------------------------------------

@@ -14,8 +14,9 @@ const Main = () => {
             <p>
               {/* A <span>Programmer </span> with a passion for learning and
               creating. */}
-              Cultivating Insights, Driving Decisions: Empowering Businesses
-              Through <span>Data Analysis</span>.
+              dedicated to cultivating insights and driving decisions to empower
+              businesses through <span>data analysis</span> , with aspirations
+              to evolve into a <span>Data Scientist.</span>
             </p>
           </div>
           <div className={styles.social_links}>

@@ -19,6 +19,7 @@ import tableau from "../public/assets/skills/tableau.png";
 import BI_tools from "../public/assets/skills/BI_tools.png";
 import java from "../public/assets/skills/Java-Logo.png";
 import sql from "../public/assets/skills/Sql_logo.png";
+import mspowerbi from "../public/assets/skills/PowerBI.png";
 // import node from "../public/assets/skills/node.png"; need to learn how works
 // import reactnative from "../public/assets/skills/react-native.png";  need to learn how works
 import { nanoid } from "../node_modules/nanoid";
@@ -28,6 +29,7 @@ import pizza from "../public/assets/projects/pizza_hooks.png";
 import excel from "../public/assets/skills/Excel.png";
 import powerbi from "../public/slider/1.png";
 import excel_project from "../public/slider/2.png";
+
 const colorGitHub = {
   color: "#171515",
 };
@@ -187,20 +189,26 @@ export const backendskills = [
   {
     id: nanoid(),
     text: "SQL",
-    level: "⚫⚫",
-    image: <Image src={sql} alt="css" width="50" height="50" />,
-  },
-  {
-    id: nanoid(),
-    text: "Excel",
     level: "⚫⚫⚫",
-    image: <Image src={excel} alt="css" width="50" height="50" />,
+    image: <Image src={sql} alt="css" width="50" height="50" />,
   },
   {
     id: nanoid(),
     text: "tableau",
     level: "⚫⚫",
     image: <Image src={tableau} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "Power BI",
+    level: "⚫⚫",
+    image: <Image src={mspowerbi} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "Excel",
+    level: "⚫⚫⚫",
+    image: <Image src={excel} alt="css" width="50" height="50" />,
   },
   {
     id: nanoid(),

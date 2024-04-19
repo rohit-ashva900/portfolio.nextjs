@@ -251,11 +251,11 @@ export const projectList1 = [
   {
     id: nanoid(),
     href_github:
-      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI/blob/main/projects%20for%20power%20BI.pdf",
+      "https://github.com/rohzxz/Excel-store-data-analysis/tree/main",
     icon_github: <FaGithub className="icons" style={colorGitHub} />,
     // icon_github: <FaGithub size={50} />,
     href_demo:
-      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
+      "https://github.com/rohzxz/Excel-store-data-analysis/blob/main/report%20/allreport.png",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     // icon_demo: <BsArrowUpRightSquare size={50} />,
     name: "Insights into Consumer Behavior & Sales Channels: Leveraging Microsoft Excel & Pivot Charts",
@@ -268,33 +268,6 @@ export const projectList1 = [
     ),
     Overview:
       "This report, crafted using Microsoft Excel and pivot charts, delves into women's buying behavior, top sales states, and leading sales channels, <br>  Conclusion: Recommend targeting female customers aged 30-50, focusing marketing efforts on Amazon, Flipkart, or Myntra for optimal growth",
-    Technologies: (
-      <ul>
-        <li>◼️Power BI</li>
-        <li>◼️Dashboard in Power BI </li>
-      </ul>
-    ),
-  },
-  {
-    id: nanoid(),
-    href_github:
-      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI/blob/main/projects%20for%20power%20BI.pdf",
-    icon_github: <FaGithub className="icons" style={colorGitHub} />,
-    // icon_github: <FaGithub size={50} />,
-    href_demo:
-      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
-    icon_demo: <BsArrowUpRightSquare className="icons" />,
-    // icon_demo: <BsArrowUpRightSquare size={50} />,
-    name: "Analyzing E-commerce Data with Power BI",
-    image: (
-      <Image
-        src={excel_project}
-        alt="projects"
-        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
-      />
-    ),
-    Overview:
-      "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
     Technologies: (
       <ul>
         <li>◼Ms excel</li>

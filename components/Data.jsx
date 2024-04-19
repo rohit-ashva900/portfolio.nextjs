@@ -27,6 +27,7 @@ import teslaclone from "../public/assets/projects/tesla-clone.png";
 import pizza from "../public/assets/projects/pizza_hooks.png";
 import excel from "../public/assets/skills/Excel.png";
 import powerbi from "../public/slider/1.png";
+import excel_project from "../public/slider/2.png";
 const colorGitHub = {
   color: "#171515",
 };
@@ -249,16 +250,16 @@ export const projectList1 = [
       "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     // icon_demo: <BsArrowUpRightSquare size={50} />,
-    name: "Analyzing E-commerce Data with Power BI",
+    name: "Insights into Consumer Behavior & Sales Channels: Leveraging Microsoft Excel & Pivot Charts",
     image: (
       <Image
-        src={powerbi}
+        src={excel_project}
         alt="projects"
         style={{ borderRadius: "1em", width: "100%", height: "100%" }}
       />
     ),
     Overview:
-      "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
+      "This report, crafted using Microsoft Excel and pivot charts, delves into women's buying behavior, top sales states, and leading sales channels, <br>  Conclusion: Recommend targeting female customers aged 30-50, focusing marketing efforts on Amazon, Flipkart, or Myntra for optimal growth",
     Technologies: (
       <ul>
         <li>◼️Power BI</li>
@@ -279,7 +280,7 @@ export const projectList1 = [
     name: "Analyzing E-commerce Data with Power BI",
     image: (
       <Image
-        src={powerbi}
+        src={excel_project}
         alt="projects"
         style={{ borderRadius: "1em", width: "100%", height: "100%" }}
       />
@@ -288,8 +289,8 @@ export const projectList1 = [
       "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
     Technologies: (
       <ul>
-        <li>◼️Power BI</li>
-        <li>◼️Dashboard in Power BI </li>
+        <li>◼Ms excel</li>
+        <li>◼️pivot chart</li>
       </ul>
     ),
   },

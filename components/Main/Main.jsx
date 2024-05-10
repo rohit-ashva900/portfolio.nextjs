@@ -9,7 +9,7 @@ const Main = () => {
         <section className={styles.main_section}>
           <div className={styles.main}>
             <h1>
-              Hi, I'm <span>Rohitashva</span> <br />A Software Developer in the
+              Hi, I m <span>Rohitashva</span> <br />A Software Developer in the
               Making
             </h1>
             <p>

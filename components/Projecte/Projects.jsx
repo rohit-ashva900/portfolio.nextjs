@@ -10,7 +10,7 @@ const Projects = () => {
         <div className={styles.projects}>
           <p>Projects</p>
           <div className={styles.projects1}>
-            <p>Data Analysis Projects </p>
+            <p>back_end</p>
           </div>
           <section>
             {projectList1.map((projects) => {

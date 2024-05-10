@@ -15,18 +15,17 @@ import style from "../public/assets/skills/style.png";
 import typescript from "../public/assets/skills/typescript.png";
 import python from "../public/assets/skills/Python-Symbol.png";
 import python2 from "../public/assets/skills/Python-svg.png";
-import tableau from "../public/assets/skills/tableau.png";
-import BI_tools from "../public/assets/skills/BI_tools.png";
-import java from "../public/assets/skills/Java-Logo.png";
+import api from "../public/assets/skills/api.png";
+import flask from "../public/assets/skills/flask.jpg";
+import dj from "../public/assets/skills/django.png";
 import sql from "../public/assets/skills/Sql_logo.png";
-import mspowerbi from "../public/assets/skills/PowerBI.png";
 // import node from "../public/assets/skills/node.png"; need to learn how works
 // import reactnative from "../public/assets/skills/react-native.png";  need to learn how works
 import { nanoid } from "../node_modules/nanoid";
 import imageapp from "../public/assets/projects/image-app.png";
 import teslaclone from "../public/assets/projects/tesla-clone.png";
 import pizza from "../public/assets/projects/pizza_hooks.png";
-import excel from "../public/assets/skills/Excel.png";
+
 import powerbi from "../public/slider/1.png";
 import excel_project from "../public/slider/2.png";
 
@@ -194,27 +193,21 @@ export const backendskills = [
   },
   {
     id: nanoid(),
-    text: "tableau",
+    text: "django",
     level: "⚫⚫",
-    image: <Image src={tableau} alt="css" width="50" height="50" />,
+    image: <Image src={dj} alt="css" width="50" height="50" />,
   },
   {
     id: nanoid(),
-    text: "Power BI",
-    level: "⚫⚫",
-    image: <Image src={mspowerbi} alt="css" width="50" height="50" />,
-  },
-  {
-    id: nanoid(),
-    text: "Excel",
+    text: "Flask",
     level: "⚫⚫⚫",
-    image: <Image src={excel} alt="css" width="50" height="50" />,
+    image: <Image src={flask} alt="css" width="50" height="50" />,
   },
   {
     id: nanoid(),
-    text: "BI_tools",
+    text: "API",
     level: "⚫⚫",
-    image: <Image src={BI_tools} alt="css" width="50" height="50" />,
+    image: <Image src={api} alt="css" width="50" height="50" />,
   },
 ];
 

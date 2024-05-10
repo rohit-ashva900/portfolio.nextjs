@@ -9,16 +9,17 @@ const Main = () => {
         <section className={styles.main_section}>
           <div className={styles.main}>
             <h1>
-              Hi,I m <span>Rohitashva</span> <br />A Data Analyst
+              Hi, I'm <span>Rohitashva</span> <br />A Software Developer in the
+              Making
             </h1>
             <p>
-              {/* A <span>Programmer </span> with a passion for learning and
-              creating. */}
-              dedicated to cultivating insights and driving decisions to empower
-              businesses through <span>data analysis</span> , with aspirations
-              to evolve into a <span>Data Scientist.</span>
+              Passionate about crafting elegant solutions and building robust
+              software applications. Currently honing skills in{" "}
+              <span>programming</span> and eager to delve deeper into the world
+              of <span>software development</span>.
             </p>
           </div>
+
           <div className={styles.social_links}>
             {socialLinks.map(({ id, href, icon }) => {
               return (

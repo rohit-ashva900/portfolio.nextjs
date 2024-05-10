@@ -13,7 +13,7 @@ const Skills = () => {
           </div>
           <section className={styles.skills_tech}>
             <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
-              Data analysis{" "}
+              back-end{" "}
             </h3>
             <div className={styles.skills_grid}>
               {backendskills.map(({ id, text, image, level }) => {

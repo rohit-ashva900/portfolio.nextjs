@@ -1,14 +1,23 @@
 .skills_section {
   margin-top: 20em;
   display: block;
-  /* text-align: center; */
+  text-align: center;
 }
 
-.heading_section h4 {
+/* .heading_section h4 {
 }
 .heading_section p {
   color: #284e24;
   font-size: 1.8em;
+} */
+.heading_section h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.heading_section p {
+  color: #284e24;
+  font-size: 1.2rem;
 }
 .skills_tech {
   display: flex;

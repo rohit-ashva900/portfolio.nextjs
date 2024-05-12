@@ -8,9 +8,8 @@ const Projects = () => {
     <section id="projects" className="container">
       <section className={styles.projects_section}>
         <div className={styles.projects}>
-          <p>Projects</p>
           <div className={styles.projects1}>
-            <p>back_end</p>
+            <p>Projects</p>
           </div>
           <section>
             {projectList1.map((projects) => {
@@ -46,9 +45,9 @@ const Projects = () => {
             })}
           </section>
         </div>
-        <div className={styles.projects1}>
+        {/* <div className={styles.projects1}>
           <p>FRONTEND PROJECTS</p>
-        </div>
+        </div> */}
         {projectList.map((projects) => {
           const {
             id,

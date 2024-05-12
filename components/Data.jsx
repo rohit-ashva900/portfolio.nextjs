@@ -98,6 +98,36 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
+    text: "Python",
+    level: "⚫⚫⚫",
+    image: <Image src={python2} alt="html" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "SQL",
+    level: "⚫⚫⚫",
+    image: <Image src={sql} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "django",
+    level: "⚫⚫",
+    image: <Image src={dj} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "Flask",
+    level: "⚫⚫⚫",
+    image: <Image src={flask} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
+    text: "API",
+    level: "⚫⚫",
+    image: <Image src={api} alt="css" width="50" height="50" />,
+  },
+  {
+    id: nanoid(),
     text: "HTML 5",
     level: "⚫⚫⚫",
     image: <Image src={html} alt="html" width="50" height="50" />,
@@ -139,12 +169,12 @@ export const skills = [
     level: "⚫⚫",
     image: <Image src={tailwind} alt="tailwind" width="50" height="50" />,
   },
-  // {
-  //   id: nanoid(),
-  //   text: "Redux",
-  //   level: "⚫",
-  //   image: <Image src={redux} alt="redux" width="50" height="50" />,
-  // },
+  {
+    id: nanoid(),
+    text: "Redux",
+    level: "⚫",
+    image: <Image src={redux} alt="redux" width="50" height="50" />,
+  },
   {
     id: nanoid(),
     text: "GitHub",
@@ -178,38 +208,38 @@ export const skills = [
 ];
 
 // back-End skills---------------
-export const backendskills = [
-  {
-    id: nanoid(),
-    text: "Python",
-    level: "⚫⚫⚫",
-    image: <Image src={python2} alt="html" width="50" height="50" />,
-  },
-  {
-    id: nanoid(),
-    text: "SQL",
-    level: "⚫⚫⚫",
-    image: <Image src={sql} alt="css" width="50" height="50" />,
-  },
-  {
-    id: nanoid(),
-    text: "django",
-    level: "⚫⚫",
-    image: <Image src={dj} alt="css" width="50" height="50" />,
-  },
-  {
-    id: nanoid(),
-    text: "Flask",
-    level: "⚫⚫⚫",
-    image: <Image src={flask} alt="css" width="50" height="50" />,
-  },
-  {
-    id: nanoid(),
-    text: "API",
-    level: "⚫⚫",
-    image: <Image src={api} alt="css" width="50" height="50" />,
-  },
-];
+// export const backendskills = [
+//   {
+//     id: nanoid(),
+//     text: "Python",
+//     level: "⚫⚫⚫",
+//     image: <Image src={python2} alt="html" width="50" height="50" />,
+//   },
+//   {
+//     id: nanoid(),
+//     text: "SQL",
+//     level: "⚫⚫⚫",
+//     image: <Image src={sql} alt="css" width="50" height="50" />,
+//   },
+//   {
+//     id: nanoid(),
+//     text: "django",
+//     level: "⚫⚫",
+//     image: <Image src={dj} alt="css" width="50" height="50" />,
+//   },
+//   {
+//     id: nanoid(),
+//     text: "Flask",
+//     level: "⚫⚫⚫",
+//     image: <Image src={flask} alt="css" width="50" height="50" />,
+//   },
+//   {
+//     id: nanoid(),
+//     text: "API",
+//     level: "⚫⚫",
+//     image: <Image src={api} alt="css" width="50" height="50" />,
+//   },
+// ];
 
 // project list data analysis projects - data-------------------------------------------
 

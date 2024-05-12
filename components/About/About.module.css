@@ -2,7 +2,7 @@
 #2b4b28
 #84ca7dd3
 */
-
+/* 
 .about_section {
   height: 60vh;
   display: flex;
@@ -21,8 +21,8 @@
   box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
   display: flex;
   justify-content: center;
-}
-.about_text {
+} */
+/* .about_text {
   max-width: 1280px;
 }
 .about_text p {
@@ -37,35 +37,35 @@
 .about_text p span {
   font-size: 1.4em;
   color: #399031;
-}
+} */
 
-.img {
+/* .img {
   width: 100%;
-  height: 100%;
-  /* border-radius: 2em; */
-  /* width: 100%;
+  height: 100%; */
+/* border-radius: 2em; */
+/* width: 100%;
   height: auto;
   margin: auto;
   border-radius: 2em;
 
   box-shadow: 2px 15px 20px rgba(44, 43, 43, 0.5);
   transition: transform 0.7s, transition-duration 0.3s; */
-}
-.img:hover {
+/* } */
+/* .img:hover {
   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
   transform: scale(1.1);
   transition-duration: 150ms;
-}
+} */
 
 /* Education----------------- */
-.education_section {
+/* .education_section {
   margin-top: 5em;
-}
+} */
 
 /* media section------------------ */
 
 /* xs */
-@media (max-width: 475px) {
+/* @media (max-width: 475px) {
   .about_section {
     display: block;
     justify-content: center;
@@ -79,10 +79,10 @@
   .about_image {
     margin-top: 3em;
   }
-}
+} */
 
 /* sm */
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .about_section {
     display: block;
     justify-content: center;
@@ -101,10 +101,10 @@
   .about_image {
     margin-top: 1em;
   }
-}
+} */
 
 /* md */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .about_section {
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@
   .img {
     width: 30%;
   }
-}
+} */
 
 /* lg */
 /* @media (min-width: 1024px) {} */
@@ -124,4 +124,55 @@
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+/* @media (min-width: 1536px) {}
+
+
+/* About Section */
+.about_section {
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_image {
+  flex: 1;
+  max-width: 400px;
+  height: auto;
+  border-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about_text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about_text h3 {
+  font-size: 2.5em;
+  color: #2b4b28;
+  margin-bottom: 0.5em;
+}
+
+.about_text p {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.about_text p span {
+  color: #399031;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .about_section {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .about_image,
+  .about_text {
+    max-width: 100%;
+  }
+}

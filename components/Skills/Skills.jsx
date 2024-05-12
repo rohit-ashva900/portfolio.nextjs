@@ -11,7 +11,7 @@ const Skills = () => {
               Here are a few technologies I’ve been working with recently:
             </h4>
           </div>
-          <section className={styles.skills_tech}>
+          {/* <section className={styles.skills_tech}>
             <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
               back-end{" "}
             </h3>
@@ -30,11 +30,11 @@ const Skills = () => {
                 );
               })}
             </div>
-          </section>
+          </section> */}
           <section className={styles.skills_tech}>
-            <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
+            {/* <h3 style={{ "margin-top": "2rem", "font-size": "2rem" }}>
               Front-End
-            </h3>
+            </h3> */}
             <div className={styles.skills_grid}>
               {skills.map(({ id, text, image, level }) => {
                 return (

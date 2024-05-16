@@ -5,6 +5,8 @@ import "@/styles/globals.css";
 import NavBar from "@/components/Nav/NavBar";
 import Footer from "@/components/Contact/Footer";
 import {DNA} from 'react-loader-spinner';
+import logo from "@/public/assets/logo2.png";
+import Image from 'next/image';
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
@@ -24,6 +26,7 @@ export default function App({ Component, pageProps }) {
       {loading ? (
         <div className="preloader-overlay">
           <div className="preloader">
+          <Image src={logo} alt="Your Logo" className="logo" />
           <DNA
               visible={true}
               height="200"

@@ -76,11 +76,6 @@ export const links = [
   },
   {
     id: nanoid(),
-    url: "/#skills",
-    text: "skills",
-  },
-  {
-    id: nanoid(),
     url: "/#projects",
     text: "projects",
   },
@@ -100,98 +95,98 @@ export const skills = [
     id: nanoid(),
     text: "Python",
     level: "⚫⚫⚫",
-    image: <Image src={python2} alt="html" width="50" height="50" />,
+    image: <Image src={python2} alt="html" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "SQL",
     level: "⚫⚫⚫",
-    image: <Image src={sql} alt="css" width="50" height="50" />,
+    image: <Image src={sql} alt="css" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "django",
     level: "⚫⚫",
-    image: <Image src={dj} alt="css" width="50" height="50" />,
+    image: <Image src={dj} alt="css" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "Flask",
     level: "⚫⚫⚫",
-    image: <Image src={flask} alt="css" width="50" height="50" />,
+    image: <Image src={flask} alt="css" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "API",
     level: "⚫⚫",
-    image: <Image src={api} alt="css" width="50" height="50" />,
+    image: <Image src={api} alt="css" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "HTML 5",
     level: "⚫⚫⚫",
-    image: <Image src={html} alt="html" width="50" height="50" />,
+    image: <Image src={html} alt="html" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "CSS 3",
     level: "⚫⚫",
-    image: <Image src={css} alt="css" width="50" height="50" />,
+    image: <Image src={css} alt="css" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: `JavaScript
                (ES6+)  `,
     level: "⚫⚫",
-    image: <Image src={javascript} alt="js" width="50" height="50" />,
+    image: <Image src={javascript} alt="js" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "React",
     level: "⚫⚫⚫",
-    image: <Image src={react} alt="react" width="50" height="50" />,
+    image: <Image src={react} alt="react" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "Next js",
     level: "⚫⚫",
-    image: <Image src={next} alt="next js" width="50" height="50" />,
+    image: <Image src={next} alt="next js" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "Typescript",
     level: "⚫⚫",
-    image: <Image src={typescript} alt="style" width="50" height="50" />,
+    image: <Image src={typescript} alt="style" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "Tailwind CSS",
     level: "⚫⚫",
-    image: <Image src={tailwind} alt="tailwind" width="50" height="50" />,
+    image: <Image src={tailwind} alt="tailwind" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "Redux",
     level: "⚫",
-    image: <Image src={redux} alt="redux" width="50" height="50" />,
+    image: <Image src={redux} alt="redux" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "GitHub",
     level: "⚫⚫",
-    image: <Image src={github} alt="github" width="50" height="50" />,
+    image: <Image src={github} alt="github" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "git",
     level: "⚫⚫",
-    image: <Image src={git} alt="git" width="50" height="50" />,
+    image: <Image src={git} alt="git" width="25" height="25" />,
   },
   {
     id: nanoid(),
     text: "styled-components",
     level: "⚫⚫",
-    image: <Image src={style} alt="style" width="50" height="50" />,
+    image: <Image src={style} alt="style" width="25" height="25" />,
   },
   // {
   //   id: nanoid(),
@@ -207,39 +202,6 @@ export const skills = [
   // },
 ];
 
-// back-End skills---------------
-// export const backendskills = [
-//   {
-//     id: nanoid(),
-//     text: "Python",
-//     level: "⚫⚫⚫",
-//     image: <Image src={python2} alt="html" width="50" height="50" />,
-//   },
-//   {
-//     id: nanoid(),
-//     text: "SQL",
-//     level: "⚫⚫⚫",
-//     image: <Image src={sql} alt="css" width="50" height="50" />,
-//   },
-//   {
-//     id: nanoid(),
-//     text: "django",
-//     level: "⚫⚫",
-//     image: <Image src={dj} alt="css" width="50" height="50" />,
-//   },
-//   {
-//     id: nanoid(),
-//     text: "Flask",
-//     level: "⚫⚫⚫",
-//     image: <Image src={flask} alt="css" width="50" height="50" />,
-//   },
-//   {
-//     id: nanoid(),
-//     text: "API",
-//     level: "⚫⚫",
-//     image: <Image src={api} alt="css" width="50" height="50" />,
-//   },
-// ];
 
 // project list data analysis projects - data-------------------------------------------
 

@@ -1,65 +1,16 @@
-// import Image from "next/image";
-// import styles from "./About.module.css";
-// import data from "../../public/data.png";
-
-// const style = { fontSize: "1.4em" };
-// const About = () => {
-//   return (
-//     <section id="about" className="container">
-//       <div className={styles.about_section}>
-//         <div className={styles.about_text}>
-//           <h3>About Me</h3>
-//           <p>
-//             Im Rohitashva, a driven individual with a passion for software
-//             development and a knack for tackling challenges head-on. My journey
-//             into the world of software development commenced during my{" "}
-//             <span>Bachelor of Computer Application</span> days at Maharshi
-//             Dayanand Saraswati University. Since then, Ive embraced a diverse
-//             range of technologies and platforms, constantly adapting to new
-//             trends and advancements in the field. With an{" "}
-//             <span>Advanced Certificate in Full Stack Development</span> from the
-//             esteemed Indian Institute of Technology Roorkee and an Advanced
-//             Diploma in Management Ive honed my skills in <span>Python</span>,{" "}
-//             <span>Django</span> <span>Flask</span>, <span>SQL</span>, and
-//             various backend technologies. However, I believe that being a
-//             software developer transcends mere proficiency in specific
-//             technologies. As a software developer, I understand that the
-//             technology landscape is constantly evolving. Whats in demand today
-//             may be replaced by something new tomorrow. Therefore, I approach my
-//             work with a mindset of versatility and continuous learning. Whether
-//             its <span>Python</span>, <span>Django</span>, <span>Flask</span>, or
-//             any other emerging technology, I am committed to staying updated and
-//             adaptable. My focus lies in leveraging my expertise to build robust
-//             Please can you replace the lines hello and scalable solutions,
-//             regardless of the specific technology stack involved. I thrive in
-//             dynamic environments and am dedicated to contributing to the success
-//             of initiatives, no matter the challenges they may present. Lets
-//             connect and collaborate to drive innovation and shape the future of
-//             software development, embracing the diversity and ever-changing
-//             nature of technology together!
-//           </p>
-//         </div>
-//       </div>
-//       <div className={styles.about_image}>
-//         <Image className={styles.img} src={data} alt="about-image" />
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default About;
 
 import Image from "next/image";
 import styles from "./About.module.css";
 import data from "../../public/data.png";
-
+// import styles from "./Skills.module.css";
+import { skills } from "../Data";
 const About = () => {
   return (
     <section id="about" className="container">
       <div className={styles.about_section}>
         <div className={styles.about_text}>
           <h2>About Me</h2>
-          <p className={styles.main_paragraph}>
+          <p >
             Im Rohitashva, a software developer passionate about solving
             challenges. My journey began during my Bachelor of Computer
             Application days at Maharshi Dayanand Saraswati University. Since
@@ -86,10 +37,37 @@ const About = () => {
             development, embracing diversity and change!
           </p>
         </div>
-        <div className={styles.about_image}>
-          <Image className={styles.img} src={data} alt="about-image" />
+        {/* <div className={styles.about_image}> */}
+        <div id="skills">
+        <div className={styles.skills_section}>
+          <div className={styles.heading_section}>
+            <p>Technical Skills</p>
+            <h4>
+              Here are a few technologies I’ve been working with recently:
+            </h4>
+          </div>
+
+          <section className={styles.skills_tech}>
+            <div className={styles.skills_grid}>
+              {skills.map(({ id, text, image, level }) => {
+                return (
+                  <div key={id} className={styles.skills_box}>
+                    <div className={styles.images}>
+                      {image}
+                      <p>{level}</p>
+                    </div>
+                    {/* <div className={styles.skills_name}>
+                      <h3>{text}</h3>
+                    </div> */}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
         </div>
       </div>
+        </div>
+      {/* </div> */}
     </section>
   );
 };

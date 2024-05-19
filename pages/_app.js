@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
     // Simulate loading delay with setTimeout
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 4000); 
+    }, 3000); 
 
     // Cleanup function
     return () => clearTimeout(timeout);

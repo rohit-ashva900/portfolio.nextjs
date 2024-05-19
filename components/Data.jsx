@@ -13,7 +13,6 @@ import tailwind from "../public/assets/skills/tailwind.png";
 import redux from "../public/assets/skills/Redux.png";
 import style from "../public/assets/skills/style.png";
 import typescript from "../public/assets/skills/typescript.png";
-import python from "../public/assets/skills/Python-Symbol.png";
 import python2 from "../public/assets/skills/Python-svg.png";
 import api from "../public/assets/skills/api.png";
 import flask from "../public/assets/skills/flask.jpg";
@@ -24,9 +23,10 @@ import sql from "../public/assets/skills/Sql_logo.png";
 import { nanoid } from "../node_modules/nanoid";
 import imageapp from "../public/assets/projects/image-app.png";
 import teslaclone from "../public/assets/projects/tesla-clone.png";
+import weather from "../public/assets/projects/weather.png";
 import pizza from "../public/assets/projects/pizza_hooks.png";
 
-import powerbi from "../public/slider/1.png";
+// import powerbi from "../public/slider/1.png";
 import excel_project from "../public/slider/2.png";
 
 const colorGitHub = {
@@ -203,68 +203,37 @@ export const skills = [
 ];
 
 
-// project list data analysis projects - data-------------------------------------------
 
-export const projectList1 = [
+
+// project list data Projects - data-------------------------------------------
+export const projectList = [
   {
     id: nanoid(),
     href_github:
-      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI/blob/main/projects%20for%20power%20BI.pdf",
+      "https://github.com/rohzxz/weather",
     icon_github: <FaGithub className="icons" style={colorGitHub} />,
     // icon_github: <FaGithub size={50} />,
     href_demo:
-      "https://github.com/rohzxz/analyse-e-commerce-data-with-power-BI",
+      "https://github.com/rohzxz/weather",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     // icon_demo: <BsArrowUpRightSquare size={50} />,
     name: "Analyzing E-commerce Data with Power BI",
     image: (
       <Image
-        src={powerbi}
+        src={weather}
         alt="projects"
         style={{ borderRadius: "1em", width: "100%", height: "100%" }}
       />
     ),
     Overview:
-      "Analyzed e-commerce data using Power BI: Installed, imported transformed, and visualized data; created measures, charts, and dashboards for insights",
+      "This Django-based weather app lets users search and view real-time weather information for various cities, displaying temperature, weather conditions, and icons sourced from the OpenWeatherMap API.",
     Technologies: (
       <ul>
-        <li>◼️Power BI</li>
-        <li>◼️Dashboard in Power BI </li>
+        <li>◼️Django</li>
+        <li>◼️openweathermap-API</li>
       </ul>
     ),
   },
-  {
-    id: nanoid(),
-    href_github:
-      "https://github.com/rohzxz/Excel-store-data-analysis/tree/main",
-    icon_github: <FaGithub className="icons" style={colorGitHub} />,
-    // icon_github: <FaGithub size={50} />,
-    href_demo:
-      "https://github.com/rohzxz/Excel-store-data-analysis/blob/main/report%20/allreport.png",
-    icon_demo: <BsArrowUpRightSquare className="icons" />,
-    // icon_demo: <BsArrowUpRightSquare size={50} />,
-    name: "Insights into Consumer Behavior & Sales Channels: Leveraging Microsoft Excel & Pivot Charts",
-    image: (
-      <Image
-        src={excel_project}
-        alt="projects"
-        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
-      />
-    ),
-    Overview:
-      "This report, crafted using Microsoft Excel and pivot charts, delves into women's buying behavior, top sales states, and leading sales channels, <br>  Conclusion: Recommend targeting female customers aged 30-50, focusing marketing efforts on Amazon, Flipkart, or Myntra for optimal growth",
-    Technologies: (
-      <ul>
-        <li>◼Ms excel</li>
-        <li>◼️pivot chart</li>
-      </ul>
-    ),
-  },
-];
-// project list data analysis projects - data-------------------------------------------
-
-// project list data FrontEnd Projects - data-------------------------------------------
-export const projectList = [
   {
     id: nanoid(),
     href_github: "https://github.com/rohzxz/image-searching-with-api",
@@ -335,29 +304,6 @@ export const projectList = [
       </ul>
     ),
   },
-  // {
-  //   id: nanoid(),
-  //   href_github: "https://github.com/rohzxz/image-searching-with-api",
-  //   icon_github: <FaGithub className="icons" style={colorGitHub} />,
-  //   href_demo: "https://rohzxzimage-app.netlify.app/",
-  //   icon_demo: <BsArrowUpRightSquare className="icons" />,
-  //   name: "Image-app -with -API",
-  //   image: (
-  //     <Image
-  //       src={imageapp}
-  //       alt="projects"
-  //       style={{ borderRadius: "1em", width: "100%", height: "100%" }}
-  //     />
-  //   ),
-  //   Overview: "This app was built using React JS with unsplash API.",
-  //   Technologies: (
-  //     <ul>
-  //       <li>◼️React js</li>
-  //       <li>◼️Javascript</li>
-  //       <li>◼️unsplash API</li>
-  //     </ul>
-  //   ),
-  // },
 ];
 
-// project list data FrontEnd Projects - data-------------------------------------------
+// project list data  Projects - data-------------------------------------------

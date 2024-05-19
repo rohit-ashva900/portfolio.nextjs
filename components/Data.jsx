@@ -217,7 +217,7 @@ export const projectList = [
       "https://github.com/rohzxz/weather",
     icon_demo: <BsArrowUpRightSquare className="icons" />,
     // icon_demo: <BsArrowUpRightSquare size={50} />,
-    name: "Analyzing E-commerce Data with Power BI",
+    name: "Django-based weather app",
     image: (
       <Image
         src={weather}

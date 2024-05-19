@@ -6,9 +6,8 @@
 
 - [NextJS](https://nextjs.org/)
 - [ReactJS](https://reactjs.org/)
-- [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
-- [Swiper JS](https://swiperjs.com/)
 - [ modern-normalize v1.1.0](https://www.npmjs.com/package/modern-normalize)
+-[preloader](https://mhnpd.github.io/react-loader-spinner/docs/components/bars)
 
 # Getting started 🚀
 

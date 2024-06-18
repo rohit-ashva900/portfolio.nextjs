@@ -11,11 +11,11 @@ import Image from 'next/image';
 const sentences = [
   "Stay positive.",
   "Keep moving.",
-  "Embrace change.",
   "Be kind.",
   "Stay curious.",
   "Believe in yourself.",
-  "Dream big."
+  "Dream big.",
+  "Embrace change."
 ];
 
 export default function App({ Component, pageProps }) {

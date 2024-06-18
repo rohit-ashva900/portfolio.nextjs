@@ -43,12 +43,12 @@ export const socialLinks = [
   },
   {
     id: nanoid(),
-    href: "https://github.com/rohzxz",
+    href: "https://github.com/rohit-ashva900",
     icon: <FaGithub size={25} style={colorGitHub} />,
   },
   {
     id: nanoid(),
-    href: "mailto:rohzxz@gmail.com",
+    href: "mailto:rohit.ashva900@gmail.com",
     icon: <AiOutlineMail size={25} style={{ color: "#C71610" }} />,
   },
   {

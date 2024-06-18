@@ -25,6 +25,7 @@ import imageapp from "../public/assets/projects/image-app.png";
 import teslaclone from "../public/assets/projects/tesla-clone.png";
 import weather from "../public/assets/projects/weather.png";
 import pizza from "../public/assets/projects/pizza_hooks.png";
+import supers from "../public/assets/projects/superChip.png";
 
 // import powerbi from "../public/slider/1.png";
 import excel_project from "../public/slider/2.png";
@@ -210,6 +211,34 @@ export const projectList = [
   {
     id: nanoid(),
     href_github:
+      "https://github.com/rohit-ashva900/superchip",
+    icon_github: <FaGithub className="icons" style={colorGitHub} />,
+    // icon_github: <FaGithub size={50} />,
+    href_demo:
+      "https://github.com/rohit-ashva900/superchip/blob/main/superChip.png",
+    icon_demo: <BsArrowUpRightSquare className="icons" />,
+    // icon_demo: <BsArrowUpRightSquare size={50} />,
+    name: "Django-based Expense tracker ",
+    image: (
+      <Image
+        src={supers}
+        alt="projects"
+        style={{ borderRadius: "1em", width: "100%", height: "100%" }}
+      />
+    ),
+    Overview:
+      "Developed a Django-based Personal Finance Manager application enabling users to manage accounts and transactions, with features including CRUD operations, user authentication, and responsive design. Utilized HTML, CSS, and Bootstrap for the front-end, and implemented database management and error handling in the back-end.",
+    Technologies: (
+      <ul>
+        <li>◼️Python</li>
+        <li>◼️Django</li>
+        <li>◼️CRUD operations</li>
+      </ul>
+    ),
+  },
+  {
+    id: nanoid(),
+    href_github:
       "https://github.com/rohzxz/weather",
     icon_github: <FaGithub className="icons" style={colorGitHub} />,
     // icon_github: <FaGithub size={50} />,
@@ -229,6 +258,7 @@ export const projectList = [
       "This Django-based weather app lets users search and view real-time weather information for various cities, displaying temperature, weather conditions, and icons sourced from the OpenWeatherMap API.",
     Technologies: (
       <ul>
+        <li>◼️Python</li>
         <li>◼️Django</li>
         <li>◼️openweathermap-API</li>
       </ul>

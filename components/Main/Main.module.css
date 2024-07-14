@@ -4,15 +4,16 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-
   align-items:center;
   /* height: 80vh; */
+
 
   
 }
 
 .main_section {
   padding-top: 10em;
+
   /* padding-bottom: 10em; */
   /* text-align: left; */
 
@@ -30,11 +31,11 @@
 }
 
 .main h1 {
-  font-size: 3em;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-size: 2.9em;
+  font-weight: 400;
+  letter-spacing: .5px;
   color: #333; /* Darker color for better readability */
-  margin-bottom: 0.5em; /* Add some space below the heading */
+  margin-bottom: 0.1em; /* Add some space below the heading */
   
   
 }
@@ -43,7 +44,7 @@
   font-weight: 400;
   letter-spacing: .2px;
   color: #333; /* Darker color for better readability */
-  margin-bottom: 0.2em; /* Add some space below the heading */
+  margin-bottom: 0.1em; /* Add some space below the heading */
 }
 
 .main p {

@@ -12,7 +12,7 @@ const Main = () => {
         <section className={styles.main_section}>
           <div className={styles.main}>
             <h1>
-              Hi, I m <span>Rohit ashva</span> <br />
+              Hi, I m <span>Rohit ashva 🧑🏽‍💻  </span> <br />
             </h1>
             <h2>
               Aspiring to Code for Giants, Starting with Every Byte <br />
@@ -20,7 +20,7 @@ const Main = () => {
             <p>
               Dynamic software developer passionate about innovation,
               continuous learning, and algorithms.
-              <b> <br />If you re curious about me, just grab my resume! It s like a sneak peek into the wild adventures of coding and coffee.</b>
+              <b>  <br />If you re curious about me, just grab my resume! It s like a sneak peek into the wild adventures of coding and coffee.</b>
             </p>
           </div>
 

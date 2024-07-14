@@ -1,5 +1,10 @@
+
 .projects_section {
   margin-top: 5em;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .projects p {
@@ -29,7 +34,7 @@
   place-content: center;
   background-color: #bdc7bc;
   border-radius: 1em;
-  width: 100%;
+  width: 50%;
   height: 300px;
   box-shadow: 0 25px 50px -12px rgba(19, 19, 19, 0.25);
   margin-bottom: 90px;
@@ -48,11 +53,11 @@
   box-shadow: 0 25px 50px 12px rgba(3, 2, 2, 0.25);
 }
 .project_text h3 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 500;
 }
 .project_text p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .project_text {
   display: grid;

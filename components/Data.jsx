@@ -72,11 +72,6 @@ export const links = [
   },
   {
     id: nanoid(),
-    url: "/#about",
-    text: "about",
-  },
-  {
-    id: nanoid(),
     url: "/#projects",
     text: "projects",
   },

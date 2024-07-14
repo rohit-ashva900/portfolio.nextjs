@@ -1,4 +1,4 @@
-import About from "@/components/About/About";
+// import About from "@/components/About/About";
 import Main from "@/components/Main/Main";
 import Projects from "@/components/Projecte/Projects";
 // import Skills from "@/components/Skills/Skills";
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <Main />
-        <About />
+        {/* <About /> */}
         {/* <Skills /> */}
         <Projects />
       </main>

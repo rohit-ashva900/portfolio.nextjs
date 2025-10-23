@@ -1,0 +1,291 @@
+[00:00:00.775] Server  LOG     
+[00:00:00.775] Server  LOG        We detected TypeScript in your project and created a tsconfig.json file for you.
+[00:00:01.021] Server  LOG      ✓ Ready in 757ms
+[00:00:12.144] Server  ERROR    ⨯ ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:13.350] Server  WARN     ⚠ Cross origin request detected from 192.168.29.101 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:13.365] Browser ERROR   uncaughtError: Error: ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:13.665] Browser ERROR   ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.665] Browser ERROR   ./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.665] Browser ERROR   ./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.665] Browser ERROR   ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.665] Browser ERROR   ./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.665] Browser ERROR   ./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.935] Browser ERROR   ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.935] Browser ERROR   ./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:13.935] Browser ERROR   ./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:41.907] Server  ERROR    ⨯ ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:42.132] Browser ERROR   uncaughtError: Error: ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:42.370] Browser ERROR   ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.370] Browser ERROR   ./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.370] Browser ERROR   ./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.370] Browser ERROR   ./app/layout.js:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import "./globals.css";
+  2 | import Header from "@/components/Header";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.370] Browser ERROR   ./app/layout.js:2:1
+Module not found: Can't resolve '@/components/Header'
+  1 | import "./globals.css";
+> 2 | import Header from "@/components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/Footer";
+  4 | import ThemeProvider from "@/components/ThemeProvider";
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.370] Browser ERROR   ./app/layout.js:4:1
+Module not found: Can't resolve '@/components/ThemeProvider'
+  2 | import Header from "@/components/Header";
+  3 | import Footer from "@/components/Footer";
+> 4 | import ThemeProvider from "@/components/ThemeProvider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Removed next/font/google (Geist) to avoid network fetch during build in restricted environments.
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:15.996] Server  LOG      ✓ Compiled in 100ms
+[00:01:16.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:48.423] Server  LOG     CONTACT_FORM {}
+[00:04:14.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
